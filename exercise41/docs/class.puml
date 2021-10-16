@@ -1,0 +1,15 @@
+@startuml
+
+class Solution41
+{
+    -stringArray  String Array
+    -tempArray - holds the old data String Array
+    -counter -> makes strArr bigger int
+    -temp String
+
+    +organizeNames
+    +getNames
+}
+
+
+@enduml
